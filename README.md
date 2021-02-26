@@ -20,8 +20,8 @@ https://nanotec.my/image/304/
 11. navbar default option: HOME
 12. navbar -> scrolling effect
 ===
-13. card height
+13. card height /// B5
 14. JS aos library
-15. load num.
+15. load num. /// => https://github.com/00ZRHun/KoreaFamilyMarket/counterup.html
 
 # Nanotec2.my
