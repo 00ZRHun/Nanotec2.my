@@ -103,7 +103,7 @@
         /* height: 500px; */
     }
 
-    a#contactUsBtn {
+    /* a#contactUsBtn {
         font-size: xxx-large;
         background-color: rgb(230,190,138); 
         color: white; 
@@ -112,7 +112,7 @@
         font-size: xxx-large;
         background-color: white;
         color: rgb(230,190,138);
-    }
+    } */
 }
 
 a.btn.btn-lg.btn-outline-primary.text-uppercase {
@@ -172,11 +172,10 @@ a#contactUsBtn {
     color: blue;
     background-color: white;
     border-radius: 8px;
-    width: 35vh;
+    width: 25vw;
 }
 
 a#contactUsBtn:hover {
-
     /* margin-top: 10px; */
     font-size: 5vw;
     border-style: none;
@@ -185,7 +184,7 @@ a#contactUsBtn:hover {
     background-color: blue;
     color: white;
     border-radius: 8px;
-    width: 75vh;
+    width: 55vw;
     /*
         background-color: white;
         color: rgb(230,190,138);
