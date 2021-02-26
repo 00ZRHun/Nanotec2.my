@@ -145,15 +145,15 @@ a.btn.btn-lg.btn-outline-primary.text-uppercase:hover {
     /* background-color: rgba(255, 255, 255, 0.8); */
     /* opacity: 0.8; */
 }
-.image-container>div.text-center>span {
+.image-container>div.text-center>div>span {
     color: white;
     /* text-shadow: 2px 2px black; */
     text-shadow: 2px 2px 4px #000000;
 }
-.image-container>div.text-center>span.row1 {
+.image-container>div.text-center>div>span.row1 {
     font-size: 2vw;
 }
-.image-container>div.text-center>span.row2 {
+.image-container>div.text-center>div>span.row2 {
     font-size: 3vw;
     font-weight: bolder;
 }
@@ -376,9 +376,10 @@ button.work-btn.btnColor:hover {
 .navbar img{
     width: 100px;
 }
-.carousel-height img{
 
-max-height: 550px;
+/* Owl Carousel */
+.carousel-height img{
+    max-height: 550px;
 }
 @media (max-width: 991.98px) { 
     .carousel-control-prev, 
@@ -392,14 +393,14 @@ max-height: 550px;
         max-height: 700px;
     }
     .carousel-text {
-        padding-top: 200px!important;
+        padding-top: 200px !important;
     }
     .carousel-text span{
-        font-size: 20px!important;
+        font-size: 20px !important;
 
     }
     .carousel-text h1 {
-        font-size: 20px!important;
+        font-size: 20px !important;
     }
 }
 .carousel-text h1 {
@@ -457,13 +458,17 @@ max-height: 550px;
     .owl-theme .owl-nav [class*='owl-'] {
         background: rgba(0,0,0,0.1)!important;
     }
-    }
+}
+
 .owl-carousel .owl-prev {
     left: -115px;
 }
 .owl-carousel .owl-next {
     right: -115px;
 }
+/* /Owl Carousel */
+
+/* /slide */
 .first-slider123 {
     /* background-image: url(../image/show1.jpg); */
     background-image: url(../image/basin-1502544_1280.jpg);
@@ -497,7 +502,7 @@ max-height: 550px;
 }
 .first-slider {
     max-width: 100%;
-    min-height: 550px;
+    /* min-height: 550px; */
     width: 100%;
     /* background-image: url('../image/show1.jpg'); */
     background-image: url('../image/b-01.jpg');
@@ -506,52 +511,54 @@ max-height: 550px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: lightgrey;
-    height: auto;
+    height: 50vh;
 }
 .first-slider-1 {
     max-width: 100%;
-    min-height: 550px;
+    /* min-height: 550px; */
     width: 100%;
     background-image: url('../image/show2.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: lightgrey;
-    height: auto;
+    height: fit-content;
 }
 .first-slider-2 {
     max-width: 100%;
-    min-height: 550px;
+    /* min-height: 550px; */
     width: 100%;
     background-image: url('../image/show3.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: lightgrey;
-    height: auto;
+    height: 50vh;
 }
 .first-slider-3 {
     max-width: 100%;
-    min-height: 550px;
+    /* min-height: 550px; */
     width: 100%;
     background-image: url('../image/show4.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: lightgrey;
-    height: auto;
+    height: 50vh;
 }
 .first-slider-4 {
     max-width: 100%;
-    min-height: 550px;
+    /* min-height: 550px; */
     width: 100%;
     background-image: url('../image/show5.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: lightgrey;
-    height: auto;
+    height: 50vh;
 }
+/* /slide */
+
 .grey{
     max-width: 2000px;
     margin-top: 15px;
