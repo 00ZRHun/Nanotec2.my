@@ -25,3 +25,6 @@ https://nanotec.my/image/304/
 15. load num. /// => https://github.com/00ZRHun/KoreaFamilyMarket/counterup.html
 
 # Nanotec2.my
+
+Black Background Overlay
+https://css-tricks.com/tinted-images-multiple-backgrounds/

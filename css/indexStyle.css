@@ -159,11 +159,19 @@ a.btn.btn-lg.btn-outline-primary.text-uppercase:hover {
     /* text-shadow: 2px 2px black; */
     text-shadow: 2px 2px 4px #000000;
 }
+
+div#outerOfRow1 {
+    width: max-content;
+}
 .image-container>div.text-center>div>span.row1 {
+    /* font-size: 2vw; */
     font-size: 2vw;
+    /* font-size: 20px; */
 }
 .image-container>div.text-center>div>span.row2 {
-    font-size: 3vw;
+    /* font-size: 3vw; */
+    font-size: 4vw;
+    /* font-size: 35px; */
     font-weight: bolder;
 }
 
@@ -197,7 +205,9 @@ a#contactUsBtn {
         border: rgb(230,190,138);
     */
     margin-top: 10px;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size: 2vw;
+    /* font-size: 25px; */
     border-style: none;
     border-width: thick;
     /* color: rgb(0, 204, 255); */
@@ -210,7 +220,9 @@ a#contactUsBtn {
 a#contactUsBtn:hover 
 {
     /* margin-top: 10px; */
-    font-size: 2vw;
+    /* font-size: 2vw; */
+    font-size: 3vw;
+    /* font-size: 30px; */
     border-style: none;
     border-width: thick;
     /* background-color: rgb(0, 204, 255); */
